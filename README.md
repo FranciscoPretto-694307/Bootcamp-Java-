@@ -18,3 +18,7 @@ Para el ejercicio hice un fork al siguiente repositorio propio: https://github.c
 * Elimine el archivo status.jv y subi los cambios en el commit 66bf828261c71203c9d808e824b0cbe272805140
 * Para volver a trabajar en mi branch git checkout custom-navbar. Luego con el comando git stash pop puedo volver a aplicar los cambios. 
 #### Ejercicio 2
+* Cree un nuevo brach front_react donde agregue un archivo index
+* subi estos cambios en el commit "subiendo archivo index" 
+* Me movi al branch main usando git checkout y luego hice el comando git merge front_react
+* Por ultimo subi estos cambios al remoto
