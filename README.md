@@ -2,7 +2,10 @@
 
 # Entrega 05/05
 ## Desafio_M1_HTML
+#### Ejercicio 1
 Este desafio esta en el branch M1_Ej1
+#### Ejercicio 2
+Este desafio esta en el branch M1_Ej2
 
 # Entrega 20/04
 ## Desafio 1
