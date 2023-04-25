@@ -1,3 +1,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,900&display=swap');
 
-  
+  * {
+    text-align: center;
+  }
+
+  .mons_black {
+    font-family: 'Montserrat' ;
+  }
