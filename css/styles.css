@@ -21,3 +21,20 @@
 .bg-blue {
     background-color: #8a9af1;
 }
+
+.img-front{
+    position: relative;
+    z-index: 1;
+}
+
+.img-behind{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+}
+
+.img-width {
+    width: 400px;
+    height: 600px;
+}
