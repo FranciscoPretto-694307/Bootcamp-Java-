@@ -50,3 +50,15 @@
 .size18pt {
     font-size: 24px;
 }
+
+.marg0pr {
+    margin: 0%;
+}
+
+.bord-blue {
+    border: #04146c solid 1px;
+}
+
+.size {
+    width: 600px;
+}
