@@ -13,3 +13,13 @@
     font-size: 32px;
     color: #0a2ff1;
 }
+
+.img-pos {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img-pos img {
+    width: 100px;
+    margin-right: 35px;
+}
