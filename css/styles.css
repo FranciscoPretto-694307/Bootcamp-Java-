@@ -22,4 +22,5 @@
 .img-pos img {
     width: 100px;
     margin-right: 35px;
+    vertical-align: middle;
 }
