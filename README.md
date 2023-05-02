@@ -1,13 +1,8 @@
 # bootcamp_java
 
 # Entrega 05/05
-## Desafio_M1_HTML
-#### Ejercicio 1
-Este desafio esta en el branch m1_ej1
-#### Ejercicio 2
-Este desafio esta en el branch m1_ej2
-#### Ejercicio 3
-Este desafio esta en el branch m1_ej3
+## Desafio_M1_HTML y M2
+Cada ejercicio esta dentro de un branch con su respectivo nombre.
 
 # Entrega 20/04
 ## Desafio 1
