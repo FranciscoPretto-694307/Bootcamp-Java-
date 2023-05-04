@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .contenedor {
-    display: inline;
-    margin-right: 15px;
+    margin-right: 10px;
+    border-bottom: #3ffff3 solid 10px;
+}
+
+.inline {
+    display: inline-block; 
+    margin: 0;
 }
 
 .contenedor img {
     width: 30%;
+}
+
+.marg-0 {
+    margin: 0;
 }
 
 .pop-bold {
@@ -29,6 +38,10 @@
     background-color: #8a9af1;
 }
 
-.c-white {
+.button {
     color: white;
+    border: 0;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 10px;
 }
