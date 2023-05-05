@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+.contenedor {
+    display: flex;
+}
+
+.width100pr {
+    width: 100%;
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab', sans-serif ;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+
+.roboto-reg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+}
+
+.roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #04146c;
+}
+
+.size72pt {
+    font-size: 96px;
+}
+
+.size26pt {
+    font-size: 35px;
+}
