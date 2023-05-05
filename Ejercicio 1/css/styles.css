@@ -2,6 +2,9 @@
 
 body {
     background-image: url(../imgs/M4-desafio1-fondo.png);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 form {
@@ -16,8 +19,13 @@ form {
     background-color: white;
 }
 
-section {  
+.bg {  
     background-image: url(../imgs/M4-desafio1-fondo-form.png);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
 
 h1{
