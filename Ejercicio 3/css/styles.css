@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
+header {
+    background-size: contain;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    border-bottom: #15163d solid 10px;
+} 
 
 
 .title {
@@ -37,4 +48,9 @@
     font-size: 27px;
     color: white;
     background-color: #0a2ff1;
+}
+
+.contenedor img {
+    width: 80%;
+    margin: auto;
 }
