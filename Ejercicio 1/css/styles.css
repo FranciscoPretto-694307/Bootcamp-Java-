@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
 
+body {
+    background-image: url(../imgs/M4-desafio1-fondo.png);
+}
 
 form {
     margin: 0 auto;
@@ -13,7 +16,7 @@ form {
     background-color: white;
 }
 
-.bg {
+section {  
     background-image: url(../imgs/M4-desafio1-fondo-form.png);
 }
 
