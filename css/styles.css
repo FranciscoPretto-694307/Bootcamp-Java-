@@ -3,6 +3,11 @@
 
 .contenedor {
     display: flex;
+    justify-content: space-around;
+}
+
+.contenedor img {
+    width: 5%;
 }
 
 .width100pr {
@@ -33,4 +38,8 @@
 
 .size26pt {
     font-size: 35px;
+}
+
+.size18pt {
+    font-size: 24px;
 }
