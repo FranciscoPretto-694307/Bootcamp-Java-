@@ -1,13 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
-
-.contenedor {
-    display: flex;
-    justify-content: space-around;
+main {
+    text-align: center;
 }
 
-.contenedor img {
+.header {
+    display: flex;
+    border-top: 25px solid rgb(56, 112, 218);
+}
+
+.header img {
     width: 5%;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .width100pr {
