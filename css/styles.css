@@ -59,3 +59,7 @@ a {
 .size18pt {
     font-size: 24px;
 }
+
+footer {
+    background-image: url(../imgs/M5-Desafio3-img.png);
+}
