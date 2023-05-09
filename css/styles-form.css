@@ -3,9 +3,17 @@
 
 /* Form Styles */
 
+form {
+    width: 50%;
+    border: #12adc2 solid 1px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
 .header {
     display: flex;
     border-top:  #12adc2 solid 1px;
+    margin-top: 20px;
 }
 
 .header img {
@@ -25,6 +33,31 @@ a {
     text-decoration: none;
 }
 
+textarea {
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.resetear {
+    font-family: 'Roboto Slab', sans-serif ;
+    font-weight: 700;
+    color: white;
+    background-color:  #f98500;
+}
+
+.enviar {
+    font-family: 'Roboto Slab', sans-serif ;
+    font-weight: 700;
+    color: white;
+    background-color: #2c00cc;
+}
 
 .roboto-slab {
     font-family: 'Roboto Slab', sans-serif ;
@@ -44,6 +77,10 @@ a {
     color: #04146c;
 }
 
+.color-red {
+    color: red;
+}
+
 .size34pt {
     font-size: 45px;
 }
@@ -54,18 +91,4 @@ a {
 
 .size24pt {
     font-size: 32px;
-}
-
-.resetear {
-    font-family: 'Roboto Slab', sans-serif ;
-    font-weight: 700;
-    color: white;
-    background-color:  #f98500;
-}
-
-.enviar {
-    font-family: 'Roboto Slab', sans-serif ;
-    font-weight: 700;
-    color: white;
-    background-color: #2c00cc;
 }

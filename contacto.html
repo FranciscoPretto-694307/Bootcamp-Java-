@@ -9,33 +9,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/styles-form.css" />
 </head>
-<body class="form">
+<body>
     <form>
         <div>
             <nav class="header">
                 <img src="imgs/M5-logo-azul.svg" />
                 <ul>
-                    <li><a class="roboto-bold size18pt" href="index.html" title="Home">Home</a></li>             
-                    <li><a class="roboto-reg size18pt" href="contacto.html" title="contacto">Contacto</a></li>           
+                    <li><a class="roboto-reg size18pt" href="index.html" title="Home">Home</a></li>             
+                    <li><a class="roboto-bold size18pt" href="contacto.html" title="contacto">Contacto</a></li>           
                 </ul>
             </nav>
         </div>
-        <div>
-            <p class="roboto-slab size34pt">¿Querés que nos contactemos con vos?</p>
-            <p class="roboto-reg size23pt">Dejanos tu consulta:</p>
-        </div>
-        <div>
-            <p class="roboto-bold size23pt">Nombre Completo</p>
-            <input type="text" name="nombre" />
-
-            <p class="roboto-bold size23pt">Email</p>
-            <input type="email" name="email" />
-
-            <p class="roboto-bold size23pt">Comentario</p>
-            <input type="text" name="comentario" />
-        </div>
-        <div>
-            <input class="resetear" type="reset" name="resetear" value="Resetear" /> <input class="enviar" type="submit" name="enviar" value="Enviar" />
+        <div class="form">
+            <div>
+                <p class="roboto-slab size34pt">¿Querés que nos contactemos con vos?</p>
+                <p class="roboto-reg size23pt">Dejanos tu consulta:</p>
+            </div>
+            <div>
+                <label for="form-nombre" class="roboto-bold size23pt">Nombre Completo <span class="color-red">*</span></label><br>
+                <input class="input" type="text" name="form-nombre" required/>
+            </div>
+            <div>
+                <label for="form-email" class="roboto-bold size23pt">Email <span class="color-red">*</span></label><br>
+                <input class="input" type="email" name="form-email" placeholder="example@gmail.com" required/>
+            </div>
+            <div>
+                <label for="form-comentario" class="roboto-bold size23pt">Comentario <span class="color-red">*</span></label><br>
+                <textarea name="form-comentario" required></textarea>
+            </div>
+            <div>
+                <input class="resetear" type="reset" name="resetear" value="Resetear" /> <input class="enviar" type="submit" name="enviar" value="Enviar" />
+            </div>
         </div>
     </form>
 </body>

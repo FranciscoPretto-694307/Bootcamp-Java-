@@ -59,23 +59,3 @@ a {
 .size18pt {
     font-size: 24px;
 }
-
-/* Form Styles */
-
-.header-form {
-    display: flex;
-    border-top:  #12adc2 solid 1px;
-}
-
-.header-form img {
-    width: 5%;
-}
-
-.header-form ul {
-    display: flex;
-    list-style: none;
-}
-
-.form {
-    border: #12adc2 solid 1px;
-}
