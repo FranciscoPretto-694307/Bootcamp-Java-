@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
-main {
-    text-align: center;
-}
+
+/* Form Styles */
 
 .header {
     display: flex;
-    border-top: 25px solid rgb(56, 112, 218);
+    border-top:  #12adc2 solid 1px;
 }
 
 .header img {
@@ -26,14 +25,11 @@ a {
     text-decoration: none;
 }
 
-.width100pr {
-    width: 100%;
-}
 
 .roboto-slab {
     font-family: 'Roboto Slab', sans-serif ;
     font-weight: 700;
-    color: #0a2ff1;
+    color: #2c00cc;
 }
 
 .roboto-reg {
@@ -48,34 +44,28 @@ a {
     color: #04146c;
 }
 
-.size72pt {
-    font-size: 96px;
+.size34pt {
+    font-size: 45px;
 }
 
-.size26pt {
-    font-size: 35px;
+.size23pt {
+    font-size: 31px;
 }
 
-.size18pt {
-    font-size: 24px;
+.size24pt {
+    font-size: 32px;
 }
 
-/* Form Styles */
-
-.header-form {
-    display: flex;
-    border-top:  #12adc2 solid 1px;
+.resetear {
+    font-family: 'Roboto Slab', sans-serif ;
+    font-weight: 700;
+    color: white;
+    background-color:  #f98500;
 }
 
-.header-form img {
-    width: 5%;
-}
-
-.header-form ul {
-    display: flex;
-    list-style: none;
-}
-
-.form {
-    border: #12adc2 solid 1px;
+.enviar {
+    font-family: 'Roboto Slab', sans-serif ;
+    font-weight: 700;
+    color: white;
+    background-color: #2c00cc;
 }
