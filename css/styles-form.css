@@ -14,12 +14,13 @@ form {
 
 .header {
     display: flex;
+    justify-content: left;
     border-top:  #12adc2 solid 1px;
     margin-top: 20px;
 }
 
 .header img {
-    width: 5%;
+    width: 10%;
 }
 
 .header ul {
@@ -51,14 +52,19 @@ textarea {
     font-family: 'Roboto Slab', sans-serif ;
     font-weight: 700;
     color: white;
+    font-size: 32px;
     background-color:  #f98500;
+    margin-top: 10px;
 }
 
 .enviar {
     font-family: 'Roboto Slab', sans-serif ;
     font-weight: 700;
     color: white;
+    font-size: 32px;
     background-color: #2c00cc;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .roboto-slab {
