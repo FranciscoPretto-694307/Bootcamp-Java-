@@ -4,6 +4,8 @@
 /* Form Styles */
 
 form {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     border: #12adc2 solid 1px;
     padding-left: 25px;
