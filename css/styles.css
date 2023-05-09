@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
-main {
-    text-align: center;
-}
 
 .header {
     display: flex;
@@ -24,6 +21,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .width100pr {
@@ -52,6 +53,10 @@ a {
     font-size: 96px;
 }
 
+.size34pt {
+    font-size: 45px;
+}
+
 .size26pt {
     font-size: 35px;
 }
@@ -60,6 +65,27 @@ a {
     font-size: 24px;
 }
 
+.padding-left {
+    padding-left: 40px;
+}
+
+.bg-img {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imgs/M5-Desafio3-img.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: 65px ;
+}
+
 footer {
-    background-image: url(../imgs/M5-Desafio3-img.png);
+    display: flex;
+    height: 70px;
+    background-color: rgb(56, 112, 218);
+}
+
+footer img {
+    width: 10%;
+    vertical-align: middle;
 }
