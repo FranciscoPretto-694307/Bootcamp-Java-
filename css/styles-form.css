@@ -10,6 +10,7 @@ form {
     border: #12adc2 solid 1px;
     padding-left: 25px;
     padding-bottom: 25px;
+    min-width: 600px;
 }
 
 .header {
