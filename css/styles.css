@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
 
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     border-top: 25px solid rgb(56, 112, 218);
