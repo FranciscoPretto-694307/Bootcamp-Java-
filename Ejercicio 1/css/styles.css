@@ -26,6 +26,7 @@ form {
     justify-content: center;
     text-align: center;
     padding: 20px;
+    min-width:700px
 }
 
 h1{
